@@ -1,0 +1,69 @@
+{
+  "model_algorithm": "Radio Map Reconstruction",
+  "model_type": "PyTorch",
+  "runtime": "python3.6",
+
+  "apis": [
+    {
+      "procotol": "http",
+      "url": "/",
+      "method": "post",
+
+      "request": {
+				"Content-type": "application/json",
+				"data": {
+					"type": "object",
+					"properties": {
+						"all_data": {
+							"type": "file"
+						}
+					},
+					"required": ["all_data"]
+				}
+			},
+
+      "response": {
+        "Content-type": "multipart/json",
+        "data": {
+          "type": "object",
+          "properties": {
+            "pathloss": {
+              "type": "number"
+            },
+            "uplink_loss": {
+              "type": "number"
+            },
+            "downlink_loss": {
+              "type": "number"
+            }
+          }
+        },
+        "required": [
+          "pathloss",
+          "uplink_loss",
+          "downlink_loss"
+        ]
+      }
+    }],
+   "dependencies": [
+		{
+			"installer": "pip",
+			"packages": [
+				{
+					"restraint": "ATLEAST",
+					"package_version": "1.15.0",
+					"package_name": "numpy"
+				},{
+					"package_name": "pillow"
+				},{
+					"package_name": "tqdm"
+				},{
+					"package_name": "matplotlib"
+				},{
+					"package_name": "einops"
+				}
+
+            ]
+        }]
+
+}
