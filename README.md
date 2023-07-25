@@ -16,4 +16,5 @@ We ultimately achieved a ranking of 7th place in the online competition. Both th
 ![Figure 2: Main Results](imgs/figure2.png)
 ## Reference
 [1] Imai T, Kitao K, Inomata M. Radio propagation prediction model using convolutional neural networks by deep learning[C]//2019 13th European Conference on Antennas and Propagation (EuCAP). IEEE, 2019: 1-5.
+
 [2] Levie R, Yapar Ç, Kutyniok G, et al. RadioUNet: Fast radio map estimation with convolutional neural networks[J]. IEEE Transactions on Wireless Communications, 2021, 20(6): 4001-4015.
