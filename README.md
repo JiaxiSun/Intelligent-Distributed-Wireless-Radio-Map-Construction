@@ -1,7 +1,7 @@
 # Intelligent-Distributed-Wireless-Radio-Map-Construction
+![Figure 1: Competition](imgs/image.png "Figure 1. Competition")
 The 7th Place Solution of the First 6G Intelligent Wireless Communication System Competition - Intelligent Distributed Wireless Radio Map Construction Category
 [Competition Homepage](https://competition.huaweicloud.com/information/1000041842/introduction)
-![Figure 1: Competition](imgs/image.png "Figure 1. Competition")
 ## Intro
 The deep integration of communication and artificial intelligence technology has become one of the most important directions for the development of wireless communication systems. In the context of 6G, how to integrate communication and AI is a hot research topic. This paper focuses on the construction technology of distributed radio maps and aims to solve the problem of low efficiency and accuracy in modeling distributed 6G radio maps using deep learning methods. Specifically, this paper models multiple channels in the communication signal separately and uses a learnable position encoding to improve the learning efficiency of the distributed model. Experimental results demonstrate that our method achieves high-precision modeling results with very low communication overhead. In the end, our method achieved an accuracy of 22.04 and a communication consumption of 1.75E+8, ranking seventh in the competition.
 
